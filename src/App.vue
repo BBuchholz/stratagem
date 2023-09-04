@@ -3,9 +3,9 @@
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'Myriad Central Node',
+  title: 'thaStrataGem',
   meta: [
-    { name: 'description', content: 'Base Template for a Myriad Central Node' },
+    { name: 'description', content: 'Monthly NewsLetter For Tha Myriad EcoSystem' },
     {
       name: 'theme-color',
       content: computed(() => isDark.value ? '#00aba9' : '#ffffff'),

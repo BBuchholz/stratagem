@@ -101,8 +101,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Myriad Central Node',
-        short_name: 'MCN',
+        name: 'thaStrataGem',
+        short_name: 'tSGm',
         theme_color: '#ffffff',
         icons: [
           {
