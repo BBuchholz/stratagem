@@ -1,17 +1,10 @@
 <template>
-  <pre>
-    CREATION
-    is a PROCESS
-
-    Arranging
-    that process
-
-    Adapting
-    that process.
-
-    Sharing that process.
-  </pre>
   <p>Works in progress will be in a sandbox/workshop site</p>
+  <div>
+    <a href="https://baolg.netlify.app/" target="_blank">
+      <img src="/SYW5-ac89_TASTE.png">
+    </a>
+  </div>
   <p>
     Proceed to BAOLG and enter this same code to see
     the work in progress
