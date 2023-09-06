@@ -14,7 +14,8 @@
   </p>
   <div>
     <a href="https://cgba.netlify.app/" target="_blank">
-      <img class="card" src="/CGBA-13c9.png">
+      <!-- <img class="card" src="/CGBA-13c9.png"> -->
+      <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/CGBA-13c9.png">
     </a>
   </div>
 </template>

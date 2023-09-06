@@ -1,7 +1,8 @@
 <template>
   <div>
     <a href="https://sylvan-circle.netlify.app/" target="_blank">
-      <img class="card" src="/SYLFAN-857a_CARD.png">
+      <!-- <img class="card" src="/SYLFAN-857a_CARD.png"> -->
+      <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/SYLFAN-857a_CARD.png">
     </a>
   </div>
 </template>

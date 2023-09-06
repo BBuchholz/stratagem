@@ -11,7 +11,8 @@
   </p>
   <div>
     <a href="https://baolg.netlify.app/" target="_blank">
-      <img class="card" src="/SYW5-ac89_CARD.png">
+      <!-- <img class="card" src="/SYW5-ac89_CARD.png"> -->
+      <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/SYW5-ac89_CARD.png">
     </a>
   </div>
 </template>
