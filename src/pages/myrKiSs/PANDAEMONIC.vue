@@ -1,11 +1,9 @@
 <template>
   <div>
-    <a
-      href="https://truthfully-cyclopean-barracks.netlify.app/"
-      target="_blank"
-    >
-      <img class="card" src="/Myriad_Central.png">
-    </a>
+    <!-- <a href="https://mccu.netlify.app/" target="_blank"> -->
+    <!-- <img class="card" src="/MCCU-adec_CARD.png"> -->
+    <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/PANDAEMONIC-02ea_CARD.png">
+    <!-- </a> -->
   </div>
 </template>
 
