@@ -2,7 +2,7 @@
   <p>Works in progress will be in a sandbox/workshop site</p>
   <div>
     <a href="https://baolg.netlify.app/" target="_blank">
-      <img src="/SYW5-ac89_TASTE.png">
+      <img src="https://madamadam.s3.us-east-2.amazonaws.com/SYW5-ac89_TASTE.png">
     </a>
   </div>
   <p>
