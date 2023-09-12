@@ -1,71 +1,5 @@
 <script setup>
-import { ref } from 'vue'
-
-const allCards = ref([
-  {
-    passCode: 'BAOLG2',
-    wxrdtype: '',
-    localDescription: 'Builders Association Ov Layered Generalists',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/BAOLG-0c83.png',
-  },
-  {
-    passCode: 'BUILDER',
-    wxrdtype: '',
-    localDescription: '',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/BUILDER-2f53.png',
-  },
-  {
-    passCode: 'CGBA',
-    wxrdtype: '',
-    localDescription: 'Coventry Grove Builders Association',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/CGBA-13c9.png',
-  },
-  {
-    passCode: 'MCCU',
-    wxrdtype: '',
-    localDescription: 'Myriad Central Credit Union - Giving Credit Where Credit Is Due',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/MCCU-adec_CARD.png',
-  },
-  {
-    passCode: 'PANDAEMONIC',
-    wxrdtype: '',
-    localDescription: '',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/PANDAEMONIC-02ea_CARD.png',
-  },
-  {
-    passCode: 'PLAY',
-    wxrdtype: '',
-    localDescription: 'A Place 4 Musicians 2 Play',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/PLAY-4249.png',
-  },
-  {
-    passCode: 'SYLFAN',
-    wxrdtype: '',
-    localDescription: 'Sylvan Circle Academy',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/SYLFAN-857a_CARD.png',
-  },
-  {
-    passCode: 'SYW5',
-    wxrdtype: '',
-    localDescription: '',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/SYW5-ac89_CARD.png',
-  },
-  {
-    passCode: 'WEWALKS',
-    wxrdtype: '',
-    localDescription: '',
-    uuid: '',
-    image: 'https://madamadam.s3.us-east-2.amazonaws.com/WEWALKS-9071_20230821_115243_0000.png',
-  },
-])
+import { allCards } from './allCards'
 </script>
 
 <template>
@@ -91,21 +25,6 @@ const allCards = ref([
       </li>
     </ul>
   </p>
-
-  <!-- <p>
-    Wxrds
-  </p>
-
-  <StepInStone
-    v-for="wxrd in testWxrds"
-    :key="wxrd.uuid"
-    :uuid="wxrd.uuid"
-    :wxrdvalue="wxrd.wxrdvalue"
-    :wxrdtype="wxrd.wxrdtype"
-    :content="wxrd.content"
-    :related="wxrd.related"
-    :image="wxrd.image"
-  /> -->
 </template>
 
 <style>
