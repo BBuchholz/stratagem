@@ -1,60 +1,52 @@
 <script setup>
-import { ref } from 'vue'
+import { getWxrdFor } from './allWxrds'
 
-const user = useUserStore()
-
-const testWxrds = ref([
-  {
-    wxrdvalue: 'test',
-    wxrdtype: '',
-    content: '',
-    related: '',
-    uuid: '',
-    image: '',
-  },
-  {
-    wxrdvalue: 'test2',
-    wxrdtype: '',
-    content: '',
-    related: '',
-    uuid: '',
-    image: '',
-  },
-  {
-    wxrdvalue: 'test3',
-    wxrdtype: '',
-    content: '',
-    related: '',
-    uuid: '',
-    image: '',
-  },
+const sortedWxrds = ref([
+  getWxrdFor('Card'),
+  getWxrdFor('Zhone'),
+  getWxrdFor('Persona'),
+  getWxrdFor('Credit'),
+  getWxrdFor('Pass Code'),
+  getWxrdFor('Myriad'),
+  getWxrdFor('Narrative Context'),
+  getWxrdFor('myrKi'),
 ])
 </script>
 
 <template>
-  <p mt-4 text-sm>
-    <span opacity-75>Recently attempts:</span>
-    <ul>
-      <li v-for="otherMyrKi in user.otherMyrKis" :key="otherMyrKi">
-        <RouterLink :to="`/myrKiSs/${otherMyrKi}`" replace>
-          {{ otherMyrKi }}
-        </RouterLink>
+  <div class="text-center">
+    <h3>Wxrds</h3>
+  </div>
+
+  <div v-for="aWxrd in sortedWxrds" :key="aWxrd" class="zhone flex-container">
+    <div class="content flex-child">
+      <li>
+        <em>{{ aWxrd.wxrdValue }}</em> - {{ aWxrd.wxrdDef }}
       </li>
-    </ul>
-  </p>
-
-  <!-- <p>
-    Wxrds
-  </p>
-
-  <StepInStone
-    v-for="wxrd in testWxrds"
-    :key="wxrd.uuid"
-    :uuid="wxrd.uuid"
-    :wxrdvalue="wxrd.wxrdvalue"
-    :wxrdtype="wxrd.wxrdtype"
-    :content="wxrd.content"
-    :related="wxrd.related"
-    :image="wxrd.image"
-  /> -->
+    </div>
+  </div>
 </template>
+
+<style scoped>
+.text-center {
+  margin: 40px;
+}
+a {
+    color: aqua;
+}
+
+.zhone {
+    margin: 40px;
+}
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+</style>

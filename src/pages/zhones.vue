@@ -20,7 +20,7 @@ const sortedCards = ref([
   </div>
 
   <div v-for="aCard in sortedCards" :key="aCard" class="zhone flex-container">
-    <div class="card flex-child">
+    <div class="flex-child card">
       <img :src="aCard.image">
     </div>
     <div class="flex-child content">
@@ -32,6 +32,10 @@ const sortedCards = ref([
 </template>
 
 <style scoped>
+.text-center {
+  margin: 40px;
+}
+
 a {
     color: aqua;
 }
