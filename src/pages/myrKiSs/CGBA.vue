@@ -1,4 +1,7 @@
 <template>
+  <h1 class="handwritten">
+    "CGBA"
+  </h1>
   <p class="handwritten">
     "It started as an experiment in the woods, a chance
     to plumb the depths of our souls and tap into that
@@ -33,6 +36,7 @@
   .handwritten {
     font-family: 'Caveat', cursive;
     font-size: 36px;
+    margin: 60px;
   }
 
   .card {

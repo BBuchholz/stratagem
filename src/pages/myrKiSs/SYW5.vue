@@ -1,11 +1,13 @@
 <template>
-  <p>Works in progress will be in a sandbox/workshop site</p>
+  <p class="technical">
+    Works in progress will be in a sandbox/workshop site
+  </p>
   <div>
     <a href="https://baolg.netlify.app/" target="_blank">
       <img src="https://madamadam.s3.us-east-2.amazonaws.com/SYW5-ac89_TASTE.png">
     </a>
   </div>
-  <p>
+  <p class="technical">
     Proceed to BAOLG and enter this same code to see
     the work in progress
   </p>
@@ -18,6 +20,12 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+  .technical {
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    margin: 40px;
+  }
   .card {
     max-width: 50%;
     height: auto;
