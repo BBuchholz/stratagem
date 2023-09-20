@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://shepton-transmission-services.netlify.app/" target="_blank">
+    <a href="https://jacobs-salvage.netlify.app/" target="_blank">
       <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/BUILDER-2f53.png">
     </a>
   </div>
