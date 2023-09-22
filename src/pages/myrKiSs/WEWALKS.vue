@@ -1,9 +1,8 @@
 <template>
   <div>
-    <!-- <a href="https://mccu.netlify.app/" target="_blank"> -->
-    <!-- <img class="card" src="/MCCU-adec_CARD.png"> -->
-    <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/WEWALKS-9071_20230821_115243_0000.png">
-    <!-- </a> -->
+    <a href="https://jus-be-u.netlify.app/" target="_blank">
+      <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/WEWALKS-9071_20230821_115243_0000.png">
+    </a>
   </div>
 </template>
 
