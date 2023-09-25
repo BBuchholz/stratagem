@@ -9,7 +9,7 @@
     The second option is to create their own, which can be easily cloned from template and customized in a single session. It is recommended that LPs interested in this option seek out the Advisement ov another LP currently maintaining a Node themselves to learn how they work.
   </p>
   <div>
-    <a href="https://baolg.netlify.app/" target="_blank">
+    <a href="https://baolg.netlify.app/myrKiSs/SYW5" target="_blank">
       <img src="https://madamadam.s3.us-east-2.amazonaws.com/SYW5-ac89_TASTE.png">
     </a>
   </div>
@@ -21,7 +21,7 @@
     the work in progress
   </p>
   <div>
-    <a href="https://baolg.netlify.app/" target="_blank">
+    <a href="https://baolg.netlify.app/myrKiSs/SYW5" target="_blank">
       <!-- <img class="card" src="/SYW5-ac89_CARD.png"> -->
       <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/SYW5-ac89_CARD.png">
     </a>

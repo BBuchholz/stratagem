@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://mccu.netlify.app/" target="_blank">
+    <a href="https://mccu.netlify.app/myrKiSs/MCCU" target="_blank">
       <!-- <img class="card" src="/MCCU-adec_CARD.png"> -->
       <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/MCCU-adec_CARD.png">
     </a>

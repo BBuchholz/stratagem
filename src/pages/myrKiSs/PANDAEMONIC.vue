@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://sonic-circle.netlify.app/" target="_blank">
+    <a href="https://sonic-circle.netlify.app/myrKiSs/PANDAEMONIC" target="_blank">
       <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/PANDAEMONIC-02ea_CARD.png">
     </a>
   </div>

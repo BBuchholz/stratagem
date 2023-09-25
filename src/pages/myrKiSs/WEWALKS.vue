@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://jus-be-u.netlify.app/" target="_blank">
+    <a href="https://jus-be-u.netlify.app/myrKiSs/WEWALKS" target="_blank">
       <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/WEWALKS-9071_20230821_115243_0000.png">
     </a>
   </div>

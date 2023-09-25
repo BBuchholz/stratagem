@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://baolg.netlify.app/" target="_blank">
+    <a href="https://baolg.netlify.app/myrKiSs/BAOLG2" target="_blank">
       <img class="card" src="https://madamadam.s3.us-east-2.amazonaws.com/BAOLG-0c83.png">
     </a>
   </div>
